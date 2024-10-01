@@ -1,0 +1,41 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Machine learning data and models
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Logs and local database files
+*.log
+*.sqlite
+*.db
+*.csv
+*.pdb
+
+# Ignore the following directories in the project
+/data/
+/models/
+/output/
+/results/
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# IDE settings (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
